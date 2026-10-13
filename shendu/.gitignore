@@ -1,0 +1,14 @@
+.env
+data/*
+!data/.gitkeep
+tmp/*
+!tmp/.gitkeep
+backups/
+*.log
+*.zip
+*.shendu
+!tests/fixtures/personal/*.shendu
+*.shendu-site
+*.shendu-db
+.playwright-cli/
+.DS_Store
